@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD10C973C614FEDA432EE38 /* WAQueueMessageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4116CBFD4FAE4652988AC953 /* WAQueueMessageParser.h */; };
+		0C03A231B8CE417FB61AC20C /* Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BD3739A3E14D4D8819E0CD /* Logging.m */; };
+		0C03A4EA4F0B41FF8210E25C /* WAPredicateParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 782EA5056CBD4BE195ED8080 /* WAPredicateParser.m */; };
+		0C914653BABB4593B06CF3C0 /* WACloudStorageClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E505BCBB73B74DBAB415ED90 /* WACloudStorageClient.m */; };
+		0E65D512EF4A442BB7B0297A /* WABlobContainerFetchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 898318601B2546C5BD81F2A6 /* WABlobContainerFetchRequest.h */; };
+		116E7BD32AE1491299F4AD6B /* WABlobFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F655B9773F14EC698EB2F17 /* WABlobFetchRequest.m */; };
+		12FD36B87C8B4C1DBCAB8AB3 /* WACloudAccessControlHomeRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 22487D54A17C49DAA1B18B56 /* WACloudAccessControlHomeRealm.h */; };
+		16A7EEF91961479D8350AF43 /* WAQueueMessageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0B38A8FA7494BBFB95A82 /* WAQueueMessageParser.m */; };
+		1EEE004102CE4B0789A16065 /* WACloudAccessControlHomeRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 2893C318BBB443F597328A41 /* WACloudAccessControlHomeRealm.m */; };
+		279AD3EB03724E60B372B8C6 /* WAResultContinuation.h in Headers */ = {isa = PBXBuildFile; fileRef = CBAA61F1889D470285C879B5 /* WAResultContinuation.h */; };
+		29BF6D2BA26F46EBBFB84CF1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 68805B5452D944209E129A11 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2D8F0894C9F444B68C30D088 /* WAAzureFilterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24DB617D8446729D9C866F /* WAAzureFilterBuilder.m */; };
+		3018768A741E402A92421343 /* WABlobParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0A79BE07AD423F860B1702 /* WABlobParser.h */; };
+		350290B51D88468BA91DDC30 /* WATableEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDBFBB2A98045B294EDEF4E /* WATableEntity.m */; };
+		3788FDC2F59A465081769910 /* WABlob.m in Sources */ = {isa = PBXBuildFile; fileRef = A72516AF78064937A99244D9 /* WABlob.m */; };
+		392AEEC030ED43FB876141BB /* WABlobContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6B18C801064CC2B611775B /* WABlobContainer.h */; };
+		3CF3F1D9808845F3AC130630 /* WAToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A6DC9710204A7DA724EDF7 /* WAToolkit.h */; };
+		3E4A84C3B32848CAAA98AEB6 /* WACloudStorageClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D33B15A5E96420BB9A503CC /* WACloudStorageClient.h */; };
+		4144D0BC314D4BE4AFB4C083 /* WAContainerParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF27BA32FFF54BA89B5D3523 /* WAContainerParser.m */; };
+		427CAC3F5B754DB19B7C3FDD /* WALoginProgressViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E562AA555A41EB93A7E85B /* WALoginProgressViewController.h */; };
+		46348B76AF254A7CBBFB252F /* WAAuthenticationCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6E5F413F24EF784963AAE /* WAAuthenticationCredential.m */; };
+		47A26ED061F749788F48DFB9 /* WAQueueParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D240D661C446CAA1A735CE /* WAQueueParser.m */; };
+		4C356A992C664B6A9FCCFE58 /* WACloudAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 258A4FBCDADA4DB28467F584 /* WACloudAccessToken.m */; };
+		4CAE238B8EDE40A1BC4C5D9F /* WAQueueFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B27C7571BA84992A024E096 /* WAQueueFetchRequest.m */; };
+		55FA3FC49BF3458181889216 /* WAAtomPubEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = E920BD81590A49AE8EE09A12 /* WAAtomPubEntry.h */; };
+		591182EF0D3143B097F45B38 /* WAAuthenticationCredential.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6B61BF51584DF0B6541988 /* WAAuthenticationCredential.h */; };
+		5BC3D61C2A0742B2858E1773 /* WAQueueParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B6448A401C41E28FE6D352 /* WAQueueParser.h */; };
+		5CA7AC932BA147DCB06DE97D /* UIApplication+WANetworkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 04419DDDA6B44F08B78CF3FA /* UIApplication+WANetworkActivity.m */; };
+		5E54A476A56C4D1CA52B3FB7 /* WATableEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DAEEE8BFDA542409E7BB392 /* WATableEntity.h */; };
+		641633B8BAE84F01B6A3F9EF /* WAAuthenticationCredential+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EF84B3CB00463592899ACA /* WAAuthenticationCredential+Private.h */; };
+		670651CB288241919B80935D /* WABlobFetchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B76B9E7558343B885BEA50C /* WABlobFetchRequest.h */; };
+		6D0B310511F249518EB288DA /* PodsDummy_Pods.m in Sources */ = {isa = PBXBuildFile; fileRef = 176EE0E71E3E4EEC8AC6332E /* PodsDummy_Pods.m */; };
+		6F77FB372DD149EA829424E7 /* WAContainerParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B733FC68414CAE88B261AA /* WAContainerParser.h */; };
+		767A6C3348174C83B199CE01 /* WABlobContainerFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9017EE3442D39E1D0A5C /* WABlobContainerFetchRequest.m */; };
+		7918160C39C2456985923A1F /* WAQueueFetchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F27755D85D4AFD9249D759 /* WAQueueFetchRequest.h */; };
+		7AA1A970427C4140BE947AE3 /* WACloudURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3C51A4F9CE4DE28A001E62 /* WACloudURLRequest.h */; };
+		7B88565AA84545E58BC40A01 /* WALoginWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C28E2252D347AFA1EDC5F0 /* WALoginWebViewController.m */; };
+		7C36F22CB311488BB76954A6 /* WACloudAccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = E7054ED30C0549CBBE674818 /* WACloudAccessToken.h */; };
+		89AF10DAECB34F17983B50E5 /* WAQueueMessageFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB031B7DF0446B5903E4A2E /* WAQueueMessageFetchRequest.m */; };
+		8EF607D7D48B428D835C6940 /* WALoginRealmPickerTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B39E4238BFB7454486EFCB42 /* WALoginRealmPickerTableViewController.h */; };
+		96E469D869A54C0691C3E058 /* WASimpleBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 542C8678B4204B9AB1B45851 /* WASimpleBase64.m */; };
+		9785373233074A7EA2419407 /* WAQueueMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 589A00DB703D476D85B7AE4E /* WAQueueMessage.m */; };
+		9906EB3BBD7C41EC85FE97FA /* Logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D896A003D994D8492E1A7DF /* Logging.h */; };
+		9F2A71B6E52B4A158588BFA5 /* WAResultContinuation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6EC7EF2A46CB82FED44F /* WAResultContinuation.m */; };
+		A8080DC98298429F920D52E4 /* WAQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B43DA1DE324B2BB618B136 /* WAQueue.h */; };
+		AA7545077876405280250F60 /* WACloudAccessControlClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EF76C969370644B18EAF9462 /* WACloudAccessControlClient.h */; };
+		AB8A3ABEC3A044D8B00AF6AF /* WACloudAccessControlClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE0F0297EAC4D3C8C38C5E6 /* WACloudAccessControlClient.m */; };
+		ACE6CED12D974CB4910C5F2A /* WALoginRealmPickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFAD3822BB44423960B7040 /* WALoginRealmPickerTableViewController.m */; };
+		ACEB426325D04426837806D2 /* WAQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C84E599D4E84EFCAA814C52 /* WAQueue.m */; };
+		B1A9F5145DAE4C809191DC28 /* WABlob.h in Headers */ = {isa = PBXBuildFile; fileRef = A74365E6716F415C95105673 /* WABlob.h */; };
+		B4959697ED2A4D4EAC0BF1D8 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AC97C0FDD24A21A8A28B2F /* Reachability.h */; };
+		B50AC45568F4411D9039D549 /* WAQueueMessageFetchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4737F13269404A378B121933 /* WAQueueMessageFetchRequest.h */; };
+		B5E06B6CDEE948828351B668 /* WAQueueMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DBC744F502B45629376D230 /* WAQueueMessage.h */; };
+		B9F48A81BBAA48828703333C /* WABlobContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8550FE4468D4D72B1E46429 /* WABlobContainer.m */; };
+		BC8E5083DB4B4898A4A72250 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4638C472E4376ADB48F8C /* NSString+URLEncode.h */; };
+		BC9303E6E89842689F748537 /* WALoginProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B2A3A6ACB442C94B981DF /* WALoginProgressViewController.m */; };
+		BD0824584A19451896500F38 /* WATableFetchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 50517F8C02D54C7CB52BD569 /* WATableFetchRequest.h */; };
+		C1931D5A323A43A68E899934 /* WAAzureFilterBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CD2A3F582D47CD974905BF /* WAAzureFilterBuilder.h */; };
+		C19B3C30C3C746A98997DA6E /* WAXMLHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 29BD38E6B696456EA1DCC8EF /* WAXMLHelper.h */; };
+		C4647E6621384773AD1CB148 /* WABlobParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A29C29933C4217AAECE181 /* WABlobParser.m */; };
+		CF92622612DB422689C3442A /* WASimpleBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 3807962FA76447CF80698DB8 /* WASimpleBase64.h */; };
+		D47A7E350BBE4BBABBA9B7B2 /* WACloudStorageClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 04786C4AC16F4CABA1ABF775 /* WACloudStorageClientDelegate.h */; };
+		D783A2365DA8467A8584D010 /* WALoginWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C66D9B1446C248C0ACB97F80 /* WALoginWebViewController.h */; };
+		D8A41F3BB7F647558CD483B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A308181EF0A430AADADD805 /* Foundation.framework */; };
+		D9A5FE2B0D66474381691AF8 /* WAPredicateParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 569ACE2EA7134D9E80A5DEDA /* WAPredicateParser.h */; };
+		DD5C07D95BD94492BCC7740D /* WAAtomPubEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A633BC37F94BFE8DA4B880 /* WAAtomPubEntry.m */; };
+		E3DDC9BEBA2B4473810AF248 /* WACloudURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3EB71D2FB84CFFB724F387 /* WACloudURLRequest.m */; };
+		E9E222AC24134C0797CD7293 /* WAXMLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CD7F4F02994909A5E2E1CA /* WAXMLHelper.m */; };
+		FC70817D0A884C58983399DE /* WATableFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6801BE317EF4B828C29D74E /* WATableFetchRequest.m */; };
+		FCD9A0B65E5B45E8AB9EDFE0 /* UIApplication+WANetworkActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C3C99355E7A4A45AC987762 /* UIApplication+WANetworkActivity.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04419DDDA6B44F08B78CF3FA /* UIApplication+WANetworkActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+WANetworkActivity.m"; path = "watoolkitios/library/Library/Private/UIApplication+WANetworkActivity.m"; sourceTree = SOURCE_ROOT; };
+		04786C4AC16F4CABA1ABF775 /* WACloudStorageClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WACloudStorageClientDelegate.h; path = "watoolkitios/library/Library/Cloud Storage/WACloudStorageClientDelegate.h"; sourceTree = SOURCE_ROOT; };
+		04B43DA1DE324B2BB618B136 /* WAQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAQueue.h; path = watoolkitios/library/Library/Model/WAQueue.h; sourceTree = SOURCE_ROOT; };
+		0A10EE5A9C394F6D9DC5839A /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		0C3EB71D2FB84CFFB724F387 /* WACloudURLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WACloudURLRequest.m; path = watoolkitios/library/Library/Private/WACloudURLRequest.m; sourceTree = SOURCE_ROOT; };
+		0E3C51A4F9CE4DE28A001E62 /* WACloudURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WACloudURLRequest.h; path = watoolkitios/library/Library/Private/WACloudURLRequest.h; sourceTree = SOURCE_ROOT; };
+		14A6DC9710204A7DA724EDF7 /* WAToolkit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAToolkit.h; path = watoolkitios/library/Library/WAToolkit.h; sourceTree = SOURCE_ROOT; };
+		16E4CE3F1FB14784ACD7D770 /* Pods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		176EE0E71E3E4EEC8AC6332E /* PodsDummy_Pods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PodsDummy_Pods.m; sourceTree = SOURCE_ROOT; };
+		1C3C99355E7A4A45AC987762 /* UIApplication+WANetworkActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+WANetworkActivity.h"; path = "watoolkitios/library/Library/Private/UIApplication+WANetworkActivity.h"; sourceTree = SOURCE_ROOT; };
+		22487D54A17C49DAA1B18B56 /* WACloudAccessControlHomeRealm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WACloudAccessControlHomeRealm.h; path = watoolkitios/library/Library/ACS/WACloudAccessControlHomeRealm.h; sourceTree = SOURCE_ROOT; };
+		258A4FBCDADA4DB28467F584 /* WACloudAccessToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WACloudAccessToken.m; path = watoolkitios/library/Library/ACS/WACloudAccessToken.m; sourceTree = SOURCE_ROOT; };
+		25E562AA555A41EB93A7E85B /* WALoginProgressViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WALoginProgressViewController.h; path = watoolkitios/library/Library/Private/ACS/WALoginProgressViewController.h; sourceTree = SOURCE_ROOT; };
+		2893C318BBB443F597328A41 /* WACloudAccessControlHomeRealm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WACloudAccessControlHomeRealm.m; path = watoolkitios/library/Library/ACS/WACloudAccessControlHomeRealm.m; sourceTree = SOURCE_ROOT; };
+		28D240D661C446CAA1A735CE /* WAQueueParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAQueueParser.m; path = watoolkitios/library/Library/Private/Parser/WAQueueParser.m; sourceTree = SOURCE_ROOT; };
+		292B2A3A6ACB442C94B981DF /* WALoginProgressViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WALoginProgressViewController.m; path = watoolkitios/library/Library/Private/ACS/WALoginProgressViewController.m; sourceTree = SOURCE_ROOT; };
+		29BD38E6B696456EA1DCC8EF /* WAXMLHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAXMLHelper.h; path = watoolkitios/library/Library/Private/Parser/WAXMLHelper.h; sourceTree = SOURCE_ROOT; };
+		3807962FA76447CF80698DB8 /* WASimpleBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WASimpleBase64.h; path = watoolkitios/library/Library/Private/Base64/WASimpleBase64.h; sourceTree = SOURCE_ROOT; };
+		3D896A003D994D8492E1A7DF /* Logging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Logging.h; path = watoolkitios/library/Library/Private/Logging.h; sourceTree = SOURCE_ROOT; };
+		3DAEEE8BFDA542409E7BB392 /* WATableEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WATableEntity.h; path = watoolkitios/library/Library/Model/WATableEntity.h; sourceTree = SOURCE_ROOT; };
+		3F655B9773F14EC698EB2F17 /* WABlobFetchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WABlobFetchRequest.m; path = "watoolkitios/library/Library/Cloud Storage/WABlobFetchRequest.m"; sourceTree = SOURCE_ROOT; };
+		4116CBFD4FAE4652988AC953 /* WAQueueMessageParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAQueueMessageParser.h; path = watoolkitios/library/Library/Private/Parser/WAQueueMessageParser.h; sourceTree = SOURCE_ROOT; };
+		43EF84B3CB00463592899ACA /* WAAuthenticationCredential+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WAAuthenticationCredential+Private.h"; path = "watoolkitios/library/Library/Private/WAAuthenticationCredential+Private.h"; sourceTree = SOURCE_ROOT; };
+		4737F13269404A378B121933 /* WAQueueMessageFetchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAQueueMessageFetchRequest.h; path = "watoolkitios/library/Library/Cloud Storage/WAQueueMessageFetchRequest.h"; sourceTree = SOURCE_ROOT; };
+		4B76B9E7558343B885BEA50C /* WABlobFetchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WABlobFetchRequest.h; path = "watoolkitios/library/Library/Cloud Storage/WABlobFetchRequest.h"; sourceTree = SOURCE_ROOT; };
+		4DFAD3822BB44423960B7040 /* WALoginRealmPickerTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WALoginRealmPickerTableViewController.m; path = watoolkitios/library/Library/Private/ACS/WALoginRealmPickerTableViewController.m; sourceTree = SOURCE_ROOT; };
+		50517F8C02D54C7CB52BD569 /* WATableFetchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WATableFetchRequest.h; path = "watoolkitios/library/Library/Cloud Storage/WATableFetchRequest.h"; sourceTree = SOURCE_ROOT; };
+		50A633BC37F94BFE8DA4B880 /* WAAtomPubEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAAtomPubEntry.m; path = watoolkitios/library/Library/Private/Parser/WAAtomPubEntry.m; sourceTree = SOURCE_ROOT; };
+		53C28E2252D347AFA1EDC5F0 /* WALoginWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WALoginWebViewController.m; path = watoolkitios/library/Library/Private/ACS/WALoginWebViewController.m; sourceTree = SOURCE_ROOT; };
+		542C8678B4204B9AB1B45851 /* WASimpleBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WASimpleBase64.m; path = watoolkitios/library/Library/Private/Base64/WASimpleBase64.m; sourceTree = SOURCE_ROOT; };
+		569ACE2EA7134D9E80A5DEDA /* WAPredicateParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAPredicateParser.h; path = watoolkitios/library/Library/Private/PredicateConverter/WAPredicateParser.h; sourceTree = SOURCE_ROOT; };
+		589A00DB703D476D85B7AE4E /* WAQueueMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAQueueMessage.m; path = watoolkitios/library/Library/Model/WAQueueMessage.m; sourceTree = SOURCE_ROOT; };
+		59CD2A3F582D47CD974905BF /* WAAzureFilterBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAAzureFilterBuilder.h; path = watoolkitios/library/Library/Private/PredicateConverter/WAAzureFilterBuilder.h; sourceTree = SOURCE_ROOT; };
+		5C6B61BF51584DF0B6541988 /* WAAuthenticationCredential.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAAuthenticationCredential.h; path = watoolkitios/library/Library/Authentication/WAAuthenticationCredential.h; sourceTree = SOURCE_ROOT; };
+		5C8E9017EE3442D39E1D0A5C /* WABlobContainerFetchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WABlobContainerFetchRequest.m; path = "watoolkitios/library/Library/Cloud Storage/WABlobContainerFetchRequest.m"; sourceTree = SOURCE_ROOT; };
+		5DF6E5F413F24EF784963AAE /* WAAuthenticationCredential.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAAuthenticationCredential.m; path = watoolkitios/library/Library/Authentication/WAAuthenticationCredential.m; sourceTree = SOURCE_ROOT; };
+		5EB0B38A8FA7494BBFB95A82 /* WAQueueMessageParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAQueueMessageParser.m; path = watoolkitios/library/Library/Private/Parser/WAQueueMessageParser.m; sourceTree = SOURCE_ROOT; };
+		68805B5452D944209E129A11 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = SOURCE_ROOT; };
+		6DBC744F502B45629376D230 /* WAQueueMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAQueueMessage.h; path = watoolkitios/library/Library/Model/WAQueueMessage.h; sourceTree = SOURCE_ROOT; };
+		6FF4638C472E4376ADB48F8C /* NSString+URLEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncode.h"; path = "watoolkitios/library/Library/Private/NSString+URLEncode.h"; sourceTree = SOURCE_ROOT; };
+		782EA5056CBD4BE195ED8080 /* WAPredicateParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAPredicateParser.m; path = watoolkitios/library/Library/Private/PredicateConverter/WAPredicateParser.m; sourceTree = SOURCE_ROOT; };
+		78B733FC68414CAE88B261AA /* WAContainerParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAContainerParser.h; path = watoolkitios/library/Library/Private/Parser/WAContainerParser.h; sourceTree = SOURCE_ROOT; };
+		7B5D6EC7EF2A46CB82FED44F /* WAResultContinuation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAResultContinuation.m; path = watoolkitios/library/Library/Model/WAResultContinuation.m; sourceTree = SOURCE_ROOT; };
+		7D25CDD9672E423792CF6047 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		898318601B2546C5BD81F2A6 /* WABlobContainerFetchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WABlobContainerFetchRequest.h; path = "watoolkitios/library/Library/Cloud Storage/WABlobContainerFetchRequest.h"; sourceTree = SOURCE_ROOT; };
+		8A308181EF0A430AADADD805 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8B27C7571BA84992A024E096 /* WAQueueFetchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAQueueFetchRequest.m; path = "watoolkitios/library/Library/Cloud Storage/WAQueueFetchRequest.m"; sourceTree = SOURCE_ROOT; };
+		8F0A79BE07AD423F860B1702 /* WABlobParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WABlobParser.h; path = watoolkitios/library/Library/Private/Parser/WABlobParser.h; sourceTree = SOURCE_ROOT; };
+		9C84E599D4E84EFCAA814C52 /* WAQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAQueue.m; path = watoolkitios/library/Library/Model/WAQueue.m; sourceTree = SOURCE_ROOT; };
+		9D33B15A5E96420BB9A503CC /* WACloudStorageClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WACloudStorageClient.h; path = "watoolkitios/library/Library/Cloud Storage/WACloudStorageClient.h"; sourceTree = SOURCE_ROOT; };
+		A72516AF78064937A99244D9 /* WABlob.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WABlob.m; path = watoolkitios/library/Library/Model/WABlob.m; sourceTree = SOURCE_ROOT; };
+		A74365E6716F415C95105673 /* WABlob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WABlob.h; path = watoolkitios/library/Library/Model/WABlob.h; sourceTree = SOURCE_ROOT; };
+		ADDBFBB2A98045B294EDEF4E /* WATableEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WATableEntity.m; path = watoolkitios/library/Library/Model/WATableEntity.m; sourceTree = SOURCE_ROOT; };
+		B39E4238BFB7454486EFCB42 /* WALoginRealmPickerTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WALoginRealmPickerTableViewController.h; path = watoolkitios/library/Library/Private/ACS/WALoginRealmPickerTableViewController.h; sourceTree = SOURCE_ROOT; };
+		B5F27755D85D4AFD9249D759 /* WAQueueFetchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAQueueFetchRequest.h; path = "watoolkitios/library/Library/Cloud Storage/WAQueueFetchRequest.h"; sourceTree = SOURCE_ROOT; };
+		BAB031B7DF0446B5903E4A2E /* WAQueueMessageFetchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAQueueMessageFetchRequest.m; path = "watoolkitios/library/Library/Cloud Storage/WAQueueMessageFetchRequest.m"; sourceTree = SOURCE_ROOT; };
+		BC24DB617D8446729D9C866F /* WAAzureFilterBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAAzureFilterBuilder.m; path = watoolkitios/library/Library/Private/PredicateConverter/WAAzureFilterBuilder.m; sourceTree = SOURCE_ROOT; };
+		BF27BA32FFF54BA89B5D3523 /* WAContainerParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAContainerParser.m; path = watoolkitios/library/Library/Private/Parser/WAContainerParser.m; sourceTree = SOURCE_ROOT; };
+		C4BD3739A3E14D4D8819E0CD /* Logging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Logging.m; path = watoolkitios/library/Library/Private/Logging.m; sourceTree = SOURCE_ROOT; };
+		C5A3717DA72349789798EC17 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		C66D9B1446C248C0ACB97F80 /* WALoginWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WALoginWebViewController.h; path = watoolkitios/library/Library/Private/ACS/WALoginWebViewController.h; sourceTree = SOURCE_ROOT; };
+		CBAA61F1889D470285C879B5 /* WAResultContinuation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAResultContinuation.h; path = watoolkitios/library/Library/Model/WAResultContinuation.h; sourceTree = SOURCE_ROOT; };
+		D6801BE317EF4B828C29D74E /* WATableFetchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WATableFetchRequest.m; path = "watoolkitios/library/Library/Cloud Storage/WATableFetchRequest.m"; sourceTree = SOURCE_ROOT; };
+		D8AC97C0FDD24A21A8A28B2F /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = SOURCE_ROOT; };
+		D9B6448A401C41E28FE6D352 /* WAQueueParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAQueueParser.h; path = watoolkitios/library/Library/Private/Parser/WAQueueParser.h; sourceTree = SOURCE_ROOT; };
+		E4CD7F4F02994909A5E2E1CA /* WAXMLHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAXMLHelper.m; path = watoolkitios/library/Library/Private/Parser/WAXMLHelper.m; sourceTree = SOURCE_ROOT; };
+		E505BCBB73B74DBAB415ED90 /* WACloudStorageClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WACloudStorageClient.m; path = "watoolkitios/library/Library/Cloud Storage/WACloudStorageClient.m"; sourceTree = SOURCE_ROOT; };
+		E7054ED30C0549CBBE674818 /* WACloudAccessToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WACloudAccessToken.h; path = watoolkitios/library/Library/ACS/WACloudAccessToken.h; sourceTree = SOURCE_ROOT; };
+		E8550FE4468D4D72B1E46429 /* WABlobContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WABlobContainer.m; path = watoolkitios/library/Library/Model/WABlobContainer.m; sourceTree = SOURCE_ROOT; };
+		E920BD81590A49AE8EE09A12 /* WAAtomPubEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAAtomPubEntry.h; path = watoolkitios/library/Library/Private/Parser/WAAtomPubEntry.h; sourceTree = SOURCE_ROOT; };
+		EF76C969370644B18EAF9462 /* WACloudAccessControlClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WACloudAccessControlClient.h; path = watoolkitios/library/Library/ACS/WACloudAccessControlClient.h; sourceTree = SOURCE_ROOT; };
+		EFE0F0297EAC4D3C8C38C5E6 /* WACloudAccessControlClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WACloudAccessControlClient.m; path = watoolkitios/library/Library/ACS/WACloudAccessControlClient.m; sourceTree = SOURCE_ROOT; };
+		F2A29C29933C4217AAECE181 /* WABlobParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WABlobParser.m; path = watoolkitios/library/Library/Private/Parser/WABlobParser.m; sourceTree = SOURCE_ROOT; };
+		FB6B18C801064CC2B611775B /* WABlobContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WABlobContainer.h; path = watoolkitios/library/Library/Model/WABlobContainer.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893DB187F2DF40EC9C93641D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A41F3BB7F647558CD483B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C3D9D47FB9B4F4A89FA6C04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A308181EF0A430AADADD805 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AD4E03991844D39919970DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D8F1AE884A34BB6961A2891 /* Pods */,
+				176EE0E71E3E4EEC8AC6332E /* PodsDummy_Pods.m */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D8F1AE884A34BB6961A2891 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A10EE5A9C394F6D9DC5839A /* Pods-resources.sh */,
+				16E4CE3F1FB14784ACD7D770 /* Pods-prefix.pch */,
+				C5A3717DA72349789798EC17 /* Pods.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98D3FCD979F24F8680288B5F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				D8AC97C0FDD24A21A8A28B2F /* Reachability.h */,
+				68805B5452D944209E129A11 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		9D4C92E9E8E348D0859753D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D25CDD9672E423792CF6047 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93AD65107584CE191C1550A /* watoolkitios */ = {
+			isa = PBXGroup;
+			children = (
+				EF76C969370644B18EAF9462 /* WACloudAccessControlClient.h */,
+				22487D54A17C49DAA1B18B56 /* WACloudAccessControlHomeRealm.h */,
+				E7054ED30C0549CBBE674818 /* WACloudAccessToken.h */,
+				5C6B61BF51584DF0B6541988 /* WAAuthenticationCredential.h */,
+				898318601B2546C5BD81F2A6 /* WABlobContainerFetchRequest.h */,
+				4B76B9E7558343B885BEA50C /* WABlobFetchRequest.h */,
+				9D33B15A5E96420BB9A503CC /* WACloudStorageClient.h */,
+				04786C4AC16F4CABA1ABF775 /* WACloudStorageClientDelegate.h */,
+				B5F27755D85D4AFD9249D759 /* WAQueueFetchRequest.h */,
+				4737F13269404A378B121933 /* WAQueueMessageFetchRequest.h */,
+				50517F8C02D54C7CB52BD569 /* WATableFetchRequest.h */,
+				A74365E6716F415C95105673 /* WABlob.h */,
+				FB6B18C801064CC2B611775B /* WABlobContainer.h */,
+				04B43DA1DE324B2BB618B136 /* WAQueue.h */,
+				6DBC744F502B45629376D230 /* WAQueueMessage.h */,
+				CBAA61F1889D470285C879B5 /* WAResultContinuation.h */,
+				3DAEEE8BFDA542409E7BB392 /* WATableEntity.h */,
+				25E562AA555A41EB93A7E85B /* WALoginProgressViewController.h */,
+				B39E4238BFB7454486EFCB42 /* WALoginRealmPickerTableViewController.h */,
+				C66D9B1446C248C0ACB97F80 /* WALoginWebViewController.h */,
+				3807962FA76447CF80698DB8 /* WASimpleBase64.h */,
+				3D896A003D994D8492E1A7DF /* Logging.h */,
+				6FF4638C472E4376ADB48F8C /* NSString+URLEncode.h */,
+				E920BD81590A49AE8EE09A12 /* WAAtomPubEntry.h */,
+				8F0A79BE07AD423F860B1702 /* WABlobParser.h */,
+				78B733FC68414CAE88B261AA /* WAContainerParser.h */,
+				4116CBFD4FAE4652988AC953 /* WAQueueMessageParser.h */,
+				D9B6448A401C41E28FE6D352 /* WAQueueParser.h */,
+				29BD38E6B696456EA1DCC8EF /* WAXMLHelper.h */,
+				59CD2A3F582D47CD974905BF /* WAAzureFilterBuilder.h */,
+				569ACE2EA7134D9E80A5DEDA /* WAPredicateParser.h */,
+				1C3C99355E7A4A45AC987762 /* UIApplication+WANetworkActivity.h */,
+				43EF84B3CB00463592899ACA /* WAAuthenticationCredential+Private.h */,
+				0E3C51A4F9CE4DE28A001E62 /* WACloudURLRequest.h */,
+				14A6DC9710204A7DA724EDF7 /* WAToolkit.h */,
+				EFE0F0297EAC4D3C8C38C5E6 /* WACloudAccessControlClient.m */,
+				2893C318BBB443F597328A41 /* WACloudAccessControlHomeRealm.m */,
+				258A4FBCDADA4DB28467F584 /* WACloudAccessToken.m */,
+				5DF6E5F413F24EF784963AAE /* WAAuthenticationCredential.m */,
+				5C8E9017EE3442D39E1D0A5C /* WABlobContainerFetchRequest.m */,
+				3F655B9773F14EC698EB2F17 /* WABlobFetchRequest.m */,
+				E505BCBB73B74DBAB415ED90 /* WACloudStorageClient.m */,
+				8B27C7571BA84992A024E096 /* WAQueueFetchRequest.m */,
+				BAB031B7DF0446B5903E4A2E /* WAQueueMessageFetchRequest.m */,
+				D6801BE317EF4B828C29D74E /* WATableFetchRequest.m */,
+				A72516AF78064937A99244D9 /* WABlob.m */,
+				E8550FE4468D4D72B1E46429 /* WABlobContainer.m */,
+				9C84E599D4E84EFCAA814C52 /* WAQueue.m */,
+				589A00DB703D476D85B7AE4E /* WAQueueMessage.m */,
+				7B5D6EC7EF2A46CB82FED44F /* WAResultContinuation.m */,
+				ADDBFBB2A98045B294EDEF4E /* WATableEntity.m */,
+				292B2A3A6ACB442C94B981DF /* WALoginProgressViewController.m */,
+				4DFAD3822BB44423960B7040 /* WALoginRealmPickerTableViewController.m */,
+				53C28E2252D347AFA1EDC5F0 /* WALoginWebViewController.m */,
+				542C8678B4204B9AB1B45851 /* WASimpleBase64.m */,
+				C4BD3739A3E14D4D8819E0CD /* Logging.m */,
+				50A633BC37F94BFE8DA4B880 /* WAAtomPubEntry.m */,
+				F2A29C29933C4217AAECE181 /* WABlobParser.m */,
+				BF27BA32FFF54BA89B5D3523 /* WAContainerParser.m */,
+				5EB0B38A8FA7494BBFB95A82 /* WAQueueMessageParser.m */,
+				28D240D661C446CAA1A735CE /* WAQueueParser.m */,
+				E4CD7F4F02994909A5E2E1CA /* WAXMLHelper.m */,
+				BC24DB617D8446729D9C866F /* WAAzureFilterBuilder.m */,
+				782EA5056CBD4BE195ED8080 /* WAPredicateParser.m */,
+				04419DDDA6B44F08B78CF3FA /* UIApplication+WANetworkActivity.m */,
+				0C3EB71D2FB84CFFB724F387 /* WACloudURLRequest.m */,
+			);
+			name = watoolkitios;
+			sourceTree = "<group>";
+		};
+		AEDFE93E3A68467CB46183F6 = {
+			isa = PBXGroup;
+			children = (
+				9D4C92E9E8E348D0859753D6 /* Products */,
+				4C3D9D47FB9B4F4A89FA6C04 /* Frameworks */,
+				E623AF9C3F0D442784EB20D1 /* Pods */,
+				6AD4E03991844D39919970DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E623AF9C3F0D442784EB20D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98D3FCD979F24F8680288B5F /* Reachability */,
+				A93AD65107584CE191C1550A /* watoolkitios */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		022335F78C18433DAE1583AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4959697ED2A4D4EAC0BF1D8 /* Reachability.h in Headers */,
+				AA7545077876405280250F60 /* WACloudAccessControlClient.h in Headers */,
+				12FD36B87C8B4C1DBCAB8AB3 /* WACloudAccessControlHomeRealm.h in Headers */,
+				7C36F22CB311488BB76954A6 /* WACloudAccessToken.h in Headers */,
+				591182EF0D3143B097F45B38 /* WAAuthenticationCredential.h in Headers */,
+				0E65D512EF4A442BB7B0297A /* WABlobContainerFetchRequest.h in Headers */,
+				670651CB288241919B80935D /* WABlobFetchRequest.h in Headers */,
+				3E4A84C3B32848CAAA98AEB6 /* WACloudStorageClient.h in Headers */,
+				D47A7E350BBE4BBABBA9B7B2 /* WACloudStorageClientDelegate.h in Headers */,
+				7918160C39C2456985923A1F /* WAQueueFetchRequest.h in Headers */,
+				B50AC45568F4411D9039D549 /* WAQueueMessageFetchRequest.h in Headers */,
+				BD0824584A19451896500F38 /* WATableFetchRequest.h in Headers */,
+				B1A9F5145DAE4C809191DC28 /* WABlob.h in Headers */,
+				392AEEC030ED43FB876141BB /* WABlobContainer.h in Headers */,
+				A8080DC98298429F920D52E4 /* WAQueue.h in Headers */,
+				B5E06B6CDEE948828351B668 /* WAQueueMessage.h in Headers */,
+				279AD3EB03724E60B372B8C6 /* WAResultContinuation.h in Headers */,
+				5E54A476A56C4D1CA52B3FB7 /* WATableEntity.h in Headers */,
+				427CAC3F5B754DB19B7C3FDD /* WALoginProgressViewController.h in Headers */,
+				8EF607D7D48B428D835C6940 /* WALoginRealmPickerTableViewController.h in Headers */,
+				D783A2365DA8467A8584D010 /* WALoginWebViewController.h in Headers */,
+				CF92622612DB422689C3442A /* WASimpleBase64.h in Headers */,
+				9906EB3BBD7C41EC85FE97FA /* Logging.h in Headers */,
+				BC8E5083DB4B4898A4A72250 /* NSString+URLEncode.h in Headers */,
+				55FA3FC49BF3458181889216 /* WAAtomPubEntry.h in Headers */,
+				3018768A741E402A92421343 /* WABlobParser.h in Headers */,
+				6F77FB372DD149EA829424E7 /* WAContainerParser.h in Headers */,
+				0AD10C973C614FEDA432EE38 /* WAQueueMessageParser.h in Headers */,
+				5BC3D61C2A0742B2858E1773 /* WAQueueParser.h in Headers */,
+				C19B3C30C3C746A98997DA6E /* WAXMLHelper.h in Headers */,
+				C1931D5A323A43A68E899934 /* WAAzureFilterBuilder.h in Headers */,
+				D9A5FE2B0D66474381691AF8 /* WAPredicateParser.h in Headers */,
+				FCD9A0B65E5B45E8AB9EDFE0 /* UIApplication+WANetworkActivity.h in Headers */,
+				641633B8BAE84F01B6A3F9EF /* WAAuthenticationCredential+Private.h in Headers */,
+				7AA1A970427C4140BE947AE3 /* WACloudURLRequest.h in Headers */,
+				3CF3F1D9808845F3AC130630 /* WAToolkit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71D82AF8EDD04D9A8F50A174 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E7210FDAAB4378A13F013B /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				D0E51DC78B144BD78EF983EC /* Sources */,
+				893DB187F2DF40EC9C93641D /* Frameworks */,
+				022335F78C18433DAE1583AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 7D25CDD9672E423792CF6047 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB53CF8FEF994551A4112943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 1EFF49CC099A436EB44BE163 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AEDFE93E3A68467CB46183F6;
+			productRefGroup = 9D4C92E9E8E348D0859753D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71D82AF8EDD04D9A8F50A174 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E51DC78B144BD78EF983EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BF6D2BA26F46EBBFB84CF1 /* Reachability.m in Sources */,
+				AB8A3ABEC3A044D8B00AF6AF /* WACloudAccessControlClient.m in Sources */,
+				1EEE004102CE4B0789A16065 /* WACloudAccessControlHomeRealm.m in Sources */,
+				4C356A992C664B6A9FCCFE58 /* WACloudAccessToken.m in Sources */,
+				46348B76AF254A7CBBFB252F /* WAAuthenticationCredential.m in Sources */,
+				767A6C3348174C83B199CE01 /* WABlobContainerFetchRequest.m in Sources */,
+				116E7BD32AE1491299F4AD6B /* WABlobFetchRequest.m in Sources */,
+				0C914653BABB4593B06CF3C0 /* WACloudStorageClient.m in Sources */,
+				4CAE238B8EDE40A1BC4C5D9F /* WAQueueFetchRequest.m in Sources */,
+				89AF10DAECB34F17983B50E5 /* WAQueueMessageFetchRequest.m in Sources */,
+				FC70817D0A884C58983399DE /* WATableFetchRequest.m in Sources */,
+				3788FDC2F59A465081769910 /* WABlob.m in Sources */,
+				B9F48A81BBAA48828703333C /* WABlobContainer.m in Sources */,
+				ACEB426325D04426837806D2 /* WAQueue.m in Sources */,
+				9785373233074A7EA2419407 /* WAQueueMessage.m in Sources */,
+				9F2A71B6E52B4A158588BFA5 /* WAResultContinuation.m in Sources */,
+				350290B51D88468BA91DDC30 /* WATableEntity.m in Sources */,
+				BC9303E6E89842689F748537 /* WALoginProgressViewController.m in Sources */,
+				ACE6CED12D974CB4910C5F2A /* WALoginRealmPickerTableViewController.m in Sources */,
+				7B88565AA84545E58BC40A01 /* WALoginWebViewController.m in Sources */,
+				96E469D869A54C0691C3E058 /* WASimpleBase64.m in Sources */,
+				0C03A231B8CE417FB61AC20C /* Logging.m in Sources */,
+				DD5C07D95BD94492BCC7740D /* WAAtomPubEntry.m in Sources */,
+				C4647E6621384773AD1CB148 /* WABlobParser.m in Sources */,
+				4144D0BC314D4BE4AFB4C083 /* WAContainerParser.m in Sources */,
+				16A7EEF91961479D8350AF43 /* WAQueueMessageParser.m in Sources */,
+				47A26ED061F749788F48DFB9 /* WAQueueParser.m in Sources */,
+				E9E222AC24134C0797CD7293 /* WAXMLHelper.m in Sources */,
+				2D8F0894C9F444B68C30D088 /* WAAzureFilterBuilder.m in Sources */,
+				0C03A4EA4F0B41FF8210E25C /* WAPredicateParser.m in Sources */,
+				5CA7AC932BA147DCB06DE97D /* UIApplication+WANetworkActivity.m in Sources */,
+				E3DDC9BEBA2B4473810AF248 /* WACloudURLRequest.m in Sources */,
+				6D0B310511F249518EB288DA /* PodsDummy_Pods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EF5269BCB754C11A7CC311A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A3717DA72349789798EC17 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92ABAAE374B644B7ABC7C32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		C41A77ED7C444047A935668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		C69C0B247B904A29BF07BCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A3717DA72349789798EC17 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EFF49CC099A436EB44BE163 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92ABAAE374B644B7ABC7C32C /* Release */,
+				C41A77ED7C444047A935668C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E7210FDAAB4378A13F013B /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF5269BCB754C11A7CC311A /* Release */,
+				C69C0B247B904A29BF07BCDA /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB53CF8FEF994551A4112943 /* Project object */;
+}
